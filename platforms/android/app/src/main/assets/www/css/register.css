@@ -1,0 +1,48 @@
+.registerButton {
+    background-color: white;
+    border-radius: 4px;
+    display: block;
+    width:90%;   
+    position: absolute;              
+    margin-top: 500px;  
+    margin-left: 15px; 
+    padding: 5px;             
+}
+.btn-photo{
+    background-color: orange;
+    border-color: orange;
+    /*float:right;*/
+    opacity: 1;
+    margin-top: 37px;
+    
+}
+.registerAll {
+    height: 500px;
+    display: block;
+    width:90%;   
+    position: absolute;              
+    margin-top: 80px;  
+    margin-left: 15px; 
+    padding: 5px;         
+}
+
+.btn-register{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+title{
+    text-align: center;
+}
+
+.btn-cancel{
+    background-color: red;
+    border: red;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.image{
+    
+    height: 100px;
+    width: 100px;
+}

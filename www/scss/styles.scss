@@ -1,0 +1,63 @@
+//Variables
+$color-1:#F8A823;
+$color-2:#00A1ff;
+$color-3:#8DE971;
+$color-4:#FFF36D;
+$color-5:#fbd0d0;
+$color-6:#F04E4E;
+
+
+
+
+$theme-colors:(
+  "color-1": $color-1,
+  "color-2": $color-2,
+  "color-3": $color-3,
+  "color-4": $color-4,
+  "color-5": $color-5,
+  "color-6": $color-6
+);
+
+
+
+//Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.btn-color-1 {
+  color: #fff !important;
+};
+
+.btn-color-1:hover {
+  color: #fff !important;
+};
+
+.btn-color-1.disabled, .btn-color-1:disabled {
+  color: #fff !important;
+};
+
+.btn-color-1:not(:disabled):not(.disabled):active, .btn-color-1:not(:disabled):not(.disabled).active,
+.show > .btn-color-1.dropdown-toggle {
+  color: #fff !important;
+};
+
+.opacity1{
+  opacity: 1;
+}
+
+.opacity90 {
+  opacity: 0.90;
+}
+
+.opacity70 {
+  opacity: 0.70;
+}
+
+.text-color1{
+  color: $color-1 !important;
+}
+
+.text-color6{
+  color: $color-6 !important;
+}
+
+

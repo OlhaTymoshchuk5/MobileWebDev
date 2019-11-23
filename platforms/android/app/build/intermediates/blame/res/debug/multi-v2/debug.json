@@ -1,0 +1,180 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 6\\geolocation\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 2\\dialogs\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\media\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\IWD1\\3 - 2019Fall\\INFO3113 Mobile Web Development\\Week11\\firebase\\firebase\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\IWD1\\3 - 2019Fall\\INFO3113 Mobile Web Development\\Week11\\firebase\\firebase\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\IWD1\\3 - 2019Fall\\INFO3113 Mobile Web Development\\Project\\PlayTime\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\IWD1\\3 - 2019Fall\\INFO3113 Mobile Web Development\\Project\\PlayTime\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Bob\\Desktop\\INFO 3113 Mobile Web Development\\Week 5 Project\\PlayTime\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Bob\\Desktop\\INFO 3113 Mobile Web Development\\Week 5 Project\\PlayTime\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 11\\firebase\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 11\\firebase\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Users\\matttanner\\Documents\\Fanshawe\\Fall 2019\\INFO-3113 Mobile Development\\Week 4\\camera\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "162,55,103",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "221,98,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,119,167",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "114,162,221"
+                    }
+                }
+            ]
+        }
+    ]
+}

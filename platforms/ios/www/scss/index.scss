@@ -1,0 +1,29 @@
+body,html {
+  background-image: url(../img/bg-main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+  margin-top: 0px;  
+}
+
+.main {
+  min-height: 600px;
+ }
+
+ 
+@media (min-height: 700px) {
+  .main {
+    min-height: 600px; } }
+
+@media (min-height: 800px) {
+  .main {
+    min-height: 700px; } }
+
+@media (min-height: 900px) {
+  .main {
+    min-height: 800px; } }
+
+@media (min-height: 1000px) {
+  .main {
+    min-height: 900px; } }

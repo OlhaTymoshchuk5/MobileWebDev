@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css"/>
+        <title></title>
+    </head>
+
+    <body onload="onLoad()"> 
+
+    <div class="container">
+          <div class="row justify-content-center main">
+            <div class="col-12  align-self-center p-3">
+                <div class="pb-3">
+                   <img src="./img/logo.png" class="rounded mx-auto d-block" alt="...">
+                </div>
+
+                <div  class=" bg-white px-3 py-1 rounded-lg opacity90 rounded-lg">
+                   <div class="form-group">
+                        <label class="text-color1" for="login-email-input">Email address</label> 
+                        <input type="email" class="form-control " id="login-email-input" aria-describedby="emailHelp" placeholder="Enter email">
+                   </div>
+                   <div class="form-group">
+                       <label class="text-color1" for="login-password-input">Password</label>
+                       <input type="password" class="form-control" id="login-password-input" placeholder="Password">
+                   </div>
+                </div>   
+
+                <div>
+                    <button type="button" id="loginButton"  onclick="loginWithFirebase()" class="btn btn-color-1 btn-lg btn-block rounded-lg">Login</button>
+                </div>
+                <div class="bg-white opacity90 pb-2 mx-5 ">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input ml-1" type="checkbox" id="inlineCheckbox1" unchecked>
+                          <label class="form-check-label text-color1" for="inlineCheckbox1">Keep me signed in</label>
+                        </div>
+                </div>  
+
+                <div>
+                    <button type="button" id="registerButton" onclick="callRegister()" class="btn btn-color-6 btn-lg btn-block rounded-lg mt-5">Register in Play Time</button>
+                </div>
+            </div>
+          </div> 
+      </div>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="js/firebase/firebase-app.js"></script>  
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use -->
+      <script src="js/firebase/firebase-auth.js"></script>
+      <script src="js/firebase/firebase-firestore.js"></script>
+      <script src="js/firebaseConfig.js"></script>
+     
+      <script src="cordova.js"></script>
+      <script type="text/javascript" src="js/ProjectFunctions.js"></script>
+      <script type="text/javascript" src="js/API_Functions.js"></script> 
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/popper.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </body>
+</html>

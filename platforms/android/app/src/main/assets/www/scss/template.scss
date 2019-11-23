@@ -1,0 +1,39 @@
+.main {
+  min-height: 390px; }
+
+.footerH {
+  min-height: 70px; }
+
+.navbar {
+  min-height: 70px; }
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 70px;
+  line-height: 70px; }
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important; }
+
+@media (min-height: 600px) {
+    .main {
+      min-height: 490px; } 
+    }
+  
+@media (min-height: 700px) {
+  .main {
+    min-height: 550px; } }
+
+@media (min-height: 800px) {
+  .main {
+    min-height: 645px; } }
+
+@media (min-height: 900px) {
+  .main {
+    min-height: 700px; } }
+
+@media (min-height: 1000px) {
+  .main {
+    min-height: 800px; } }
