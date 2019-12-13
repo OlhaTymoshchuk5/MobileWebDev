@@ -1,0 +1,75 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/project.css"/>
+        <title></title>
+    </head>
+
+    <body>
+
+      <nav class="navbar navbar-default border-bottom bg-light">
+        
+          <div class="container-fluid  bg-light">
+            <div class="navbar-header" style="width:100%;" >
+              <div class="row">
+                <div class="col-3 text-center"><a href="./games.html" class="text"><u><img src="../img/baseline_arrow_back_ios_black_18dp.png" class="img-responsive"></u></a></div>
+                <div class="col-6 text-center h3"> Profile</div>
+                <div class="col-3 text-center"><img src="../img/baseline_cancel_black_18dp.png" class="img-responsive" id="singout"></div>
+              </div>
+            </div> 
+          </div>
+      </nav>
+     <!-- <button type="button" id="btn-profile"  class="btn btn-color-1 btn-lg btn-block opacity90  rounded-lg">Show Profile</button>
+     -->
+    <div class="container bg-light opacity90 mx-3 border-4 position" style=" margin-top: 10px;  width: 90%;">
+        <div class="row">
+            <div class="col-12">    
+              <div class="rows">
+                <p class="h4 m-4 text-color-1">User Email</p>
+               <div class="col" id="email"></div>
+               <hr>
+              </div>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-12">    
+                <div class="rows">
+                  <p class="h4 m-4 text-color-1">User Name</p>
+                  <div class="col" id="name"></div>
+                  <hr>
+                </div>
+                <div class="row">
+                  <div class="col">    
+                    <div class="rows">
+                      <p class="h4 m-4 text-color-1">User Photo</p>
+                      <hr>
+                      <img id="myImageRegister" src="../img/camera-icon.png" class="m-5" style=" width:100px; height:100px"/>
+                    </div>
+              </div>
+          </div>
+    </div>
+      <script src="../cordova.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="../js/firebase/firebase-app.js"></script>  
+
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use -->
+  <script src="../js/firebase/firebase-auth.js"></script>
+  <script src="../js/firebase/firebase-firestore.js"></script>
+  <script src="../js/firebase/firebase-storage.js"></script>
+  <script src="../js/firebaseConfig.js"></script>
+      
+      <script type="text/javascript" src="../js/API_Functions.js"></script> 
+    <script type="text/javascript" src="../js/profile.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    </body>
+</html>

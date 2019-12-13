@@ -9,13 +9,13 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
      <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" /> 
     <link rel="stylesheet" type="text/css" href="../css/styles.css" /> 
-    <link rel="stylesheet" type="text/css" href="../css/index.css" /> 
+    <link rel="stylesheet" type="text/css" href="../css/project.css"/>
     <link rel="stylesheet" type="text/css" href="../css/register.css" />
 
     
 </head>
 
-<body>
+<body >
         <div class="border text-center bg-color-1 py-3 text-light opacity90"><h3>Register</h3></div>
     <div> 
             <form>
@@ -37,37 +37,41 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
-                                <div class="image" id="image"></div>
+                                <div class="image" id="image">
+                                    <img id="myImageRegister" src="../img/camera-icon.png" style=" width:100px; height:100px"/>
+                                </div>
                             </div>
                             <div class="col-6">
-                                <button type="button" id="photo" onclick="takePhoto()" class="btn btn-color-1 btn-sm ">Take a picture</button>
+                                <button type="button" id="photo"  class="btn btn-color-1 btn-sm ">Take a picture</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 
               </div>
-              <div class="registerButton">
-                <button type="button" id="btn-register" onclick="registerInFirebase()" class="btn btn-primary btn-lg btn-register ml-3">Register</button>
-                <button type="button" id="btn-cancel" onclick="callLoginPage()" class="btn btn-secondary btn-lg btn-cancel ml-3">Cancel</button>
+              <div class="registerButton opacity90">
+                <button type="button" id="btn-register"  class="btn btn-primary btn-lg btn-register ml-3">Register</button>
+                <button type="button" id="btn-cancel"  class="btn btn-secondary btn-lg btn-cancel ml-3">Cancel</button>
               </div>
           </form>   
     </div>   
-
+     
       <!-- The core Firebase JS SDK is always required and must be listed first -->
       <script src="../js/firebase/firebase-app.js"></script>  
-
       <!-- TODO: Add SDKs for Firebase products that you want to use -->
       <script src="../js/firebase/firebase-auth.js"></script>
-      
+      <script src="../js/firebase/firebase-firestore.js"></script>
+      <script src="../js/firebase/firebase-storage.js"></script>
       <script src="../js/firebaseConfig.js"></script>
+          
+  
 
-    <script type="text/javascript" src="../cordova.js"></script>
-    <script type="text/javascript" src="../js/ProjectFunctions.js"></script>
-    <script type="text/javascript" src="../js/API_Functions.js"></script> 
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/popper.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../cordova.js"></script>
+      <script type="text/javascript" src="../js/API_Functions.js"></script>
+      <script type="text/javascript" src="../js/register.js"></script>
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+      <script type="text/javascript" src="../js/popper.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -8,84 +8,101 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
-        <link rel="stylesheet" type="text/css" href="../css/template.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/project.css"/>
+
         <title></title>
     </head>
 
-    <body onload="setUrlYouTube()" >
- 
-      <nav class="navbar border-bottom " style="height:100px;">
-        <div class="col-12">
-            <a href="#" class="text"><p><u> Plays</u></p></a>
-            <p id="nameplay" class="h3 text-color6">Spinner Gamer</p>
-        </div>
-        
+    <body>
+
+      <nav class="navbar navbar-default  border-bottom bg-light">
+          <div class="container-fluid  bg-light">
+            <div class="navbar-header" style="width:100%;" >
+              <div class="row">
+                <div class="col-3 text-center pt-3"><a href="./games.html" class="text"><u><img src="../img/baseline_arrow_back_ios_black_18dp.png" class="img-responsive"></u></a></div>
+                <div class="col-6 text-center h3 text-color6" id="playName"> </div>
+                <div class="col-3 text-center pt-3" id="FavStar"></div>
+              </div>
+            </div> 
+          </div>
       </nav>
-      <div id="commentArea"></div>
-      <div class="container-fluid ">
+        
+      <div class="container-fluid">
           <div class="row main pt-1" >
             <div class="col-12 ">
               <div id="accordion">
                   <div class="card bg-color-6">
-                      <div class="card-header" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          <h5 class="mb-0 text-light"> 
-                            What do you need?
-                       </h5>
+                    <div class="card-header" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5 class="mb-0 text-light"> What do you need? </h5>
                     </div>
                 
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body bg-color-5">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <div id="description" class="card-body bg-color-5">
+                       
                       </div>
                     </div>
                   </div>
               </div>
-                
-                <div class="card bg-color-6">
-                    <div class="card-header text-light" >
-                      <h5 class="mb-0">How do you play</h5>
-                    </div>
-                    <div class="card-body bg-color-5">
-                        <iframe id="video"  allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>	    
- 
-                    </div>
-                <div>
-                    
-                <div>
-                    <button type="button" id="registerButton" onclick="callComents()" class="btn btn-color-6 btn-lg btn-block rounded-lg mt-5">Commets</button>
+
+              <div class="card bg-color-6">
+                <div class="card-header text-light" >
+                    <h5 class="mb-0">How do you play</h5>
                 </div>
-                
-         </div>         
-    </div>
+                <div class="card-body bg-light">
+                  <iframe id="video"  allowfullscreen="" frameborder="0" height="315" width="100%"></iframe>	    
+                </div>
+              </div>
+
+              <!-- comments Database -->
+             
+              <div  id="commentArea" class="p-3 bg-light">
+                <hr/>
+                <h4 class="mb-0">Comments</h4>
+                <div id="count">0 customers comments</div>
+
+                <div id="commets" class="px-3 pt-3">
+                     <!-- <div><h5>Usuario - Lat e Lon</h5></div>
+                     <div class="font-weight-bold">We love this Game!!!</div>
+                     <div>My son learned and had of fun with this game!!</div> -->
+                </div>
+              </div>
+
+              <div>
+                <button type="button" id="registerButton" class="btn btn-secondary btn-lg btn-block rounded-lg">Write a Commet</button>
+              </div>
+            </div>
+          </div>
+      </div>  
+
+
     
-      </div>   
-    </div>
-    
-    <footer class="footerfooter navbar-fixed-bottom border-top" role="contentinfo">
-        <div class="row">
-        <div class="col-4 text-center pt-3">
-            <a href="../index.html" title=""><img src="../img/Animals-Dog-House-icon.png" class="img-responsive"></a>
+      <!-- <footer class="footerfooter navbar-fixed-bottom border-top" role="contentinfo">
+          <div class="row  mt-1 " style="width: 100%;">
+          <div class="col-4 text-center pt-3">
+              <a href="games.html" title=""><img src="../img/home.png" class="img-responsive"></a>
+          </div>
+          <div class="col-4 text-center pt-3">
+              <a href="favorite.html" title=""><img  src="../img/favorite.png" class="img-responsive"></a>
+           </div>
+          <div class="col-4 text-center pt-3">
+               <a href="perfil.html" title=""><img  src="../img/user-icon.png"  class="img-responsive"></a>
+          </div>
         </div>
-        <div class="col-4 text-center pt-3">
-            <a href="#" title=""><img  src="../img/Holidays-Christmas-Star-icon.png"class="img-responsive"></a>
-         </div>
-        <div class="col-4 text-center pt-3">
-             <a href="perfil.html" title=""><img  src="../img/user-icon.png"  class="img-responsive"></a>
-        </div>
-      </div>
-    </footer>
+      </footer> -->
     <script src="../js/firebase/firebase-app.js"></script>  
 
     <!-- TODO: Add SDKs for Firebase products that you want to use -->
     <script src="../js/firebase/firebase-auth.js"></script>
     <script src="../js/firebase/firebase-firestore.js"></script>
+    <script src="../js/firebase/firebase-storage.js"></script>
     <script src="../js/firebaseConfig.js"></script>
 
       <script src="../cordova.js"></script>
-      <script type="text/javascript" src="../js/ProjectFunctions.js"></script>
+      <script type="text/javascript" src="../js/pagePlay.js"></script>
       <script type="text/javascript" src="../js/API_Functions.js"></script> 
       <script type="text/javascript" src="../js/jquery.min.js"></script>
       <script type="text/javascript" src="../js/popper.min.js"></script>
       <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+      <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>   -->
     </body>
 </html>

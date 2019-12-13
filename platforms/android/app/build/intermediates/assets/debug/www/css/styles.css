@@ -29,7 +29,7 @@
   --color-1: #F8A823;
   --color-2: #00A1ff;
   --color-3: #8DE971;
-  --color-4: #FFF36D;
+  --color-4: #F0D04E;
   --color-5: #fbd0d0;
   --color-6: #F04E4E;
   --breakpoint-xs: 0;
@@ -1266,19 +1266,19 @@ pre {
 .table-color-4,
 .table-color-4 > th,
 .table-color-4 > td {
-  background-color: #fffcd6; }
+  background-color: #fbf2cd; }
 
 .table-color-4 th,
 .table-color-4 td,
 .table-color-4 thead th,
 .table-color-4 tbody + tbody {
-  border-color: #fff9b3; }
+  border-color: #f7e7a3; }
 
 .table-hover .table-color-4:hover {
-  background-color: #fffabd; }
+  background-color: #f9ecb5; }
   .table-hover .table-color-4:hover > td,
   .table-hover .table-color-4:hover > th {
-    background-color: #fffabd; }
+    background-color: #f9ecb5; }
 
 .table-color-5,
 .table-color-5 > th,
@@ -2057,26 +2057,26 @@ fieldset:disabled a.btn {
 
 .btn-color-4 {
   color: #212529;
-  background-color: #FFF36D;
-  border-color: #FFF36D; }
+  background-color: #F0D04E;
+  border-color: #F0D04E; }
   .btn-color-4:hover {
     color: #212529;
-    background-color: #fff047;
-    border-color: #ffef3a; }
+    background-color: #edc72b;
+    border-color: #ecc41f; }
   .btn-color-4:focus, .btn-color-4.focus {
-    box-shadow: 0 0 0 0.2rem rgba(222, 212, 99, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(209, 182, 72, 0.5); }
   .btn-color-4.disabled, .btn-color-4:disabled {
     color: #212529;
-    background-color: #FFF36D;
-    border-color: #FFF36D; }
+    background-color: #F0D04E;
+    border-color: #F0D04E; }
   .btn-color-4:not(:disabled):not(.disabled):active, .btn-color-4:not(:disabled):not(.disabled).active,
   .show > .btn-color-4.dropdown-toggle {
     color: #212529;
-    background-color: #ffef3a;
-    border-color: #ffee2d; }
+    background-color: #ecc41f;
+    border-color: #eac014; }
     .btn-color-4:not(:disabled):not(.disabled):active:focus, .btn-color-4:not(:disabled):not(.disabled).active:focus,
     .show > .btn-color-4.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(222, 212, 99, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(209, 182, 72, 0.5); }
 
 .btn-color-5 {
   color: #212529;
@@ -2356,25 +2356,25 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(141, 233, 113, 0.5); }
 
 .btn-outline-color-4 {
-  color: #FFF36D;
-  border-color: #FFF36D; }
+  color: #F0D04E;
+  border-color: #F0D04E; }
   .btn-outline-color-4:hover {
     color: #212529;
-    background-color: #FFF36D;
-    border-color: #FFF36D; }
+    background-color: #F0D04E;
+    border-color: #F0D04E; }
   .btn-outline-color-4:focus, .btn-outline-color-4.focus {
-    box-shadow: 0 0 0 0.2rem rgba(255, 243, 109, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(240, 208, 78, 0.5); }
   .btn-outline-color-4.disabled, .btn-outline-color-4:disabled {
-    color: #FFF36D;
+    color: #F0D04E;
     background-color: transparent; }
   .btn-outline-color-4:not(:disabled):not(.disabled):active, .btn-outline-color-4:not(:disabled):not(.disabled).active,
   .show > .btn-outline-color-4.dropdown-toggle {
     color: #212529;
-    background-color: #FFF36D;
-    border-color: #FFF36D; }
+    background-color: #F0D04E;
+    border-color: #F0D04E; }
     .btn-outline-color-4:not(:disabled):not(.disabled):active:focus, .btn-outline-color-4:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-color-4.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(255, 243, 109, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(240, 208, 78, 0.5); }
 
 .btn-outline-color-5 {
   color: #fbd0d0;
@@ -3963,13 +3963,13 @@ input[type="button"].btn-block {
 
 .badge-color-4 {
   color: #212529;
-  background-color: #FFF36D; }
+  background-color: #F0D04E; }
   a.badge-color-4:hover, a.badge-color-4:focus {
     color: #212529;
-    background-color: #ffef3a; }
+    background-color: #ecc41f; }
   a.badge-color-4:focus, a.badge-color-4.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(255, 243, 109, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(240, 208, 78, 0.5); }
 
 .badge-color-5 {
   color: #212529;
@@ -4127,13 +4127,13 @@ input[type="button"].btn-block {
     color: #34572a; }
 
 .alert-color-4 {
-  color: #857e39;
-  background-color: #fffde2;
-  border-color: #fffcd6; }
+  color: #7d6c29;
+  background-color: #fcf6dc;
+  border-color: #fbf2cd; }
   .alert-color-4 hr {
-    border-top-color: #fffabd; }
+    border-top-color: #f9ecb5; }
   .alert-color-4 .alert-link {
-    color: #615c2a; }
+    color: #574b1c; }
 
 .alert-color-5 {
   color: #836c6c;
@@ -4455,15 +4455,15 @@ input[type="button"].btn-block {
     border-color: #49793b; }
 
 .list-group-item-color-4 {
-  color: #857e39;
-  background-color: #fffcd6; }
+  color: #7d6c29;
+  background-color: #fbf2cd; }
   .list-group-item-color-4.list-group-item-action:hover, .list-group-item-color-4.list-group-item-action:focus {
-    color: #857e39;
-    background-color: #fffabd; }
+    color: #7d6c29;
+    background-color: #f9ecb5; }
   .list-group-item-color-4.list-group-item-action.active {
     color: #fff;
-    background-color: #857e39;
-    border-color: #857e39; }
+    background-color: #7d6c29;
+    border-color: #7d6c29; }
 
 .list-group-item-color-5 {
   color: #836c6c;
@@ -5194,12 +5194,12 @@ button.bg-color-3:focus {
   background-color: #6ae245 !important; }
 
 .bg-color-4 {
-  background-color: #FFF36D !important; }
+  background-color: #F0D04E !important; }
 
 a.bg-color-4:hover, a.bg-color-4:focus,
 button.bg-color-4:hover,
 button.bg-color-4:focus {
-  background-color: #ffef3a !important; }
+  background-color: #ecc41f !important; }
 
 .bg-color-5 {
   background-color: #fbd0d0 !important; }
@@ -5287,7 +5287,7 @@ button.bg-color-6:focus {
   border-color: #8DE971 !important; }
 
 .border-color-4 {
-  border-color: #FFF36D !important; }
+  border-color: #F0D04E !important; }
 
 .border-color-5 {
   border-color: #fbd0d0 !important; }
@@ -7564,10 +7564,10 @@ a.text-color-3:hover, a.text-color-3:focus {
   color: #58df2f !important; }
 
 .text-color-4 {
-  color: #FFF36D !important; }
+  color: #F0D04E !important; }
 
 a.text-color-4:hover, a.text-color-4:focus {
-  color: #ffed21 !important; }
+  color: #dfb613 !important; }
 
 .text-color-5 {
   color: #fbd0d0 !important; }

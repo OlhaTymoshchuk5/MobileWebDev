@@ -1,0 +1,89 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/project.css"/>
+
+        <title>coments</title>
+    </head>
+
+    <body>
+
+    <nav class="navbar navbar-default  border-bottom bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+                <div class="col-12">
+                    <a href="pagePlays.html" class="text"  id="nameplayComments">Name Play1</a>
+                    <p class="h3 text-color6">Create a Coment</p>
+                </div>
+          </div> 
+
+        </div>
+    </nav>
+ 
+   
+    <div class="container">
+        <div class="row justify-content-center main bg-color-5">
+            <div class="col-12  p-3 ">     
+                <div  class="  px-3 py-1">
+                    <div class="form-group">
+                         <label for="InputTitle">Title</label> 
+                         <input type="text"  class="form-control " id="InputTitle">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTextarea">Description</label>
+                        <textarea class="form-control" id="inputTextarea" rows="6"></textarea>
+                    </div>
+                 </div>   
+                 <div class="  px-3">
+                    <div class="image pb-3" id="image">
+                        <img id="myImageCommets" src="../img/camera-icon.png" style=" width:100px; height:100px"/>
+                    </div>
+                    <button type="button"  id="attachImage"  class="btn bg-light rounded-lg">Attach Image</button>
+                </div>
+                <div class="text-center m-5">
+                    <button type="button" id="saveComment"  class="btn btn-color-6 rounded-lg mt-5 px-5 py-2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <footer class="footerfooter navbar-fixed-bottom border-top" role="contentinfo">
+            <div class="row  mt-1 " style="width: 100%;">
+            <div class="col-4 text-center pt-3">
+                <a href="games.html" title=""><img src="../img/home.png" class="img-responsive"></a>
+            </div>
+            <div class="col-4 text-center pt-3">
+                <a href="favorite.html" title=""><img  src="../img/favorite.png"class="img-responsive"></a>
+             </div>
+            <div class="col-4 text-center pt-3">
+                 <a href="perfil.html" title=""><img  src="../img/user-icon.png"  class="img-responsive"></a>
+            </div>
+          </div>
+    </footer> -->
+  
+    <script src="../js/firebase/firebase-app.js"></script>  
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use -->
+      <script src="../js/firebase/firebase-auth.js"></script>
+      <script src="../js/firebase/firebase-firestore.js"></script>
+      <script src="../js/firebase/firebase-storage.js"></script>
+      
+
+      <script src="../js/firebaseConfig.js"></script>
+
+      <script src="../cordova.js"></script>    
+      <script type="text/javascript" src="../js/jquery.min.js"></script>
+      <script type="text/javascript" src="../js/popper.min.js"></script>
+      <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../js/API_Functions.js"></script>
+      <script type="text/javascript" src="../js/comments.js"></script>
+
+    </body>
+</html>

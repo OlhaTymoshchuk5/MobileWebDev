@@ -1,54 +1,88 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+ 
 <head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" /> 
-    <link rel="stylesheet" type="text/css" href="../css/index.css" /> 
-    <link rel="stylesheet" type="text/css" href="../css/games.css" /> 
-    
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/project.css"/>
+  <script type="text/javascript">
+    function changedata()
+    {
+        alert('hello');
+    }
+    </script>
+  <title>Plays</title>
 </head>
-
 <body>
-  <header>
-     <h1>Plays</h1>
-  </header>
-  <div class="container">
-      <div class="row">
 
+        
+  <!-- <nav class="navbar navbar-default  border-bottom " style="height:100px;width: 100%;">
+    <div class="container-fluid ">
+      <div class="navbar-header " style="width: 100%;">
+          <div id="titlePage" class="h3">All Plays</div>
+          <div class="input-group input-group-sm mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Search</span>
+              </div>
+              <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+      </div> 
+    </div>
+  </nav> -->
 
-  <div class="col-6 col-sm-6 col-md-4">
-      <div id="games"> 
-        <!-- <img src="img/game1.jpg" title="Game1" class="image_game" /> -->
-      </div>
+  <nav class="navbar navbar-default  border-bottom bg-light">
+        
+    <div class="container-fluid  bg-light">
+      <div class="navbar-header" style="width:100%;" >
+        <div class="row">
+          <div class="col-3 text-center"><a href="./favorite.html" class="text"><u><img src="../img/favorite.png" class="img-responsive"></u></a></div>
+          <div class="col-6 text-center h3"> All Plays </div>
+          <div class="col-3 text-center"><a href="./profile.html" class="text"><u><img src="../img/user-icon.png" class="img-responsive"></u></a></div>
+        </div>
+      </div> 
+    </div>
+</nav>
+
+  <div class="container main">
+    <div  id="theGames" class="row ml-1  pt-3">
+    </div>
   </div>
+</div>
+  
 
-  <div class="col-6 col-sm-6 col-md-4">
-      <div id="games">
-       
-      <!-- <img src="img/game2.jpg" title="Game1" class="image_game" /> -->
-      </div>
-  </div>
-  </div>
-  </div>
 
-  <footer>
-    Favorites
-  </footer>
-      <!-- The core Firebase JS SDK is always required and must be listed first -->
-      <script src="../js/firebase/firebase-app.js"></script>  
-
-      <!-- TODO: Add SDKs for Firebase products that you want to use -->
-      <script src="../js/firebase/firebase-auth.js"></script>
+<!-- <footer class="footerfooter navbar-fixed-bottom border-top " role="contentinfo">
+    <div class="row  mt-1 " style="width: 100%;">
+    <div class="col-4 text-center pt-3">
+        <a href="games.html" title=""><img src="../img/home.png" class="img-responsive"></a>
+    </div>
+    <div class="col-4 text-center pt-3">
+        <a href="favorite.html" title=""><img  src="../img/favorite.png" class="img-responsive"></a>
+     </div>
+    <div class="col-4 text-center pt-3">
+         <a href="perfil.html" title=""><img  src="../img/user-icon.png"  class="img-responsive"></a>
+    </div>
+  </div>
+</footer> -->
+  <script src="../js/firebase/firebase-app.js"></script>  
+  <!-- TODO: Add SDKs for Firebase products that you want to use -->
+  <script src="../js/firebase/firebase-auth.js"></script>
+  <script src="../js/firebase/firebase-firestore.js"></script>
+  <script src="../js/firebaseConfig.js"></script>
       
-      <script src="../js/firebaseConfig.js"></script>
-    <script type="text/javascript" src="../cordova.js"></script>
-    <script type="text/javascript" src="../js/games.js"></script>
-
+  <script src="../cordova.js"></script>
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/popper.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/API_Functions.js"></script> 
+  <script type="text/javascript" src="../js/games.js"></script>
 </body>
-
 </html>
+      
+      
+      

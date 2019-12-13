@@ -1,0 +1,45 @@
+body, html {
+  background-image: url(../img/bg-main.jpeg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  height: 100%;
+  margin-top: 0px; }
+
+.main {
+    min-height: 600px; }
+.navbar {
+  min-height: 100px; }
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 70px;
+  line-height: 70px; }
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important; }
+
+  .border-4{
+    border-radius: 4px;
+  }
+
+  .position{
+    display: block;
+    position: absolute;  
+  }
+
+
+  @media screen and (max-width: 992px) {
+    .body, html {
+      background-image: url(../img/bg-main.png);
+      background-position: center;
+      background-repeat: repeat;
+      background-size: cover;
+      height: 100%;
+      margin-top: 0px; ;
+     }
+  }
+  
+
