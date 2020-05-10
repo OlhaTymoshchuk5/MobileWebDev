@@ -25,5 +25,5 @@ An application that helps parents to find creative games for their children. Cre
 <h3>Leave a comment</h3>
 1. Saves comments to db and photo to FB storage</br>
 
-![alt text](https://github.com/OlhaTymoshchuk5/MobileWebDev/blob/master/mobile%20img/5.PNG)
+![alt text](https://github.com/OlhaTymoshchuk5/MobileWebDev/blob/master/mobile%20img/5PNG.PNG)
 
